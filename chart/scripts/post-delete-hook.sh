@@ -11,6 +11,8 @@ if [[ -z ${namespaces} ]]; then
   exit 1
 fi
 
+
+
 if [[ -z ${timeout} ]]; then
   echo "No timeout value is provided."
   exit 1
